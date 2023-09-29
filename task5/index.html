@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task5</title>
+</head>
+<style>
+    input{
+        border: 1px solid orange;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-right: 10px;
+        
+    }
+    label{
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .v{
+        margin: auto;
+        width: 400px;
+        border: 2px solid orange;
+        border-radius: 10px;
+    }
+    h1{
+        text-align: center;
+    }
+    form>div{
+        display: flex;
+        justify-content: space-between;
+    }
+    #c{
+        display: flex;
+        flex-direction: column;
+    }
+    #c>input{
+        width: 170px;
+        margin-left: 215px;
+    }
+    #btn{
+        margin-left: 35%;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        padding: 2px 40px;
+        background-color: orange;
+        color: white;
+    }
+    select{
+        width: 170px;
+        margin-left: 215px;
+        margin-top: 20px;
+    }
+    #in>input{
+        width: 100px;
+        
+    }
+    #name{
+        margin-left: 100px;
+    }
+    
+</style>
+<body>
+    <div class="v">
+        <div>
+            <h1>Webinar Registration Form</h1>
+        </div>
+        <hr>
+        <form >
+            <div id="in">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+           </div>
+            <div><label for="email" >E-mail</label>
+            <input type="email" id="email" placeholder="Email" class="c">
+          </div>
+          <div>
+            <label for="work phone">Work phone</label>
+            <input type="number" id="work phone" placeholder="Phone">
+        </div>
+           <div >
+            <label for="Company Address">Company Address</label>
+            <input type="text" id="Company Address" placeholder="Street Address" >
+            </div>
+            <div id="c">
+            <input type="text" placeholder="Street Address Line2">
+            <input type="text" placeholder="city">
+            <input type="text" placeholder="Postal ZipCode">
+            <select name="" id="">
+                <option value="">Select Your Country</option>
+                <option value="">India</option>
+                <option value="">China</option>
+                <option value="">Sri Lanka</option>
+            </select>
+           </div>
+            <div>
+                <label for="Company Address">Company Website</label>
+            <input type="text" id="Company Address">
+            </div>
+            <input type="button" id="btn" value="Submit">
+
+        </form>
+    </div>
+    
+</body>
+</html>
